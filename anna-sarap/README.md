@@ -4,11 +4,10 @@ A single-page, self-contained portfolio site (`index.html`). No build step: open
 
 ## Personalising it
 
-1. **Photos** – create an `images/` folder next to `index.html` and add photos.
-   - Portfolio: in the `projects` list near the bottom of `index.html`, add `image: "images/your-photo.jpg"` to each project.
-   - Hero / portrait: replace the placeholder `<div class="ph" ...>` blocks with `<div class="ph ..."><img src="images/hero.jpg" alt="..."></div>`.
+1. **Photos** – portfolio images live in `images/` (cropped from @ainteriordesign.ee posts; replace with original full-resolution files for best quality).
+   - Projects are listed in the `projects` array near the bottom of `index.html`. Each has an `image`; add `before` to get a before/after toggle.
 2. **Contact details** – search for `hello@annasarap.com` (also `CONTACT_EMAIL` in the script), the phone number, Instagram handle and "Your City".
-3. **Text** – the About stats (years, projects), services, and project descriptions are placeholders; update them to match Anna's real experience.
+3. **Text** – project titles/descriptions were written from the photos; services and the About text are general. Check them with Anna.
 
 ## Contact form
 
