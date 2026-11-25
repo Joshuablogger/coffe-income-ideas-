@@ -1,0 +1,1074 @@
+window.OFFERS_DATA = {
+ "sample": true,
+ "updated": "2026-11-25T10:25:28.706Z",
+ "stores": [
+  {
+   "id": "rimi",
+   "name": "Rimi",
+   "color": "#d7171f"
+  },
+  {
+   "id": "selver",
+   "name": "Selver",
+   "color": "#e30613"
+  },
+  {
+   "id": "prisma",
+   "name": "Prisma",
+   "color": "#00843d"
+  },
+  {
+   "id": "maxima",
+   "name": "Maxima",
+   "color": "#ed1c24"
+  },
+  {
+   "id": "coop",
+   "name": "Coop",
+   "color": "#0058a3"
+  },
+  {
+   "id": "lidl",
+   "name": "Lidl",
+   "color": "#0050aa"
+  }
+ ],
+ "products": [
+  {
+   "id": "milk-25",
+   "name": "Milk 2.5%",
+   "nameEt": "Piim 2,5%",
+   "category": "Dairy",
+   "unit": "1 L",
+   "prices": {
+    "rimi": {
+     "price": 1.19
+    },
+    "selver": {
+     "price": 1.21
+    },
+    "prisma": {
+     "price": 1.13
+    },
+    "maxima": {
+     "price": 1.12
+    },
+    "coop": {
+     "price": 1.21
+    },
+    "lidl": {
+     "price": 1.08
+    }
+   }
+  },
+  {
+   "id": "kefir",
+   "name": "Kefir",
+   "nameEt": "Keefir",
+   "category": "Dairy",
+   "unit": "1 L",
+   "prices": {
+    "rimi": {
+     "price": 1.38
+    },
+    "selver": {
+     "price": 1.27
+    },
+    "prisma": {
+     "price": 1.3
+    },
+    "maxima": {
+     "price": 1.3
+    },
+    "coop": {
+     "price": 1.44
+    },
+    "lidl": {
+     "price": 1.25
+    }
+   }
+  },
+  {
+   "id": "butter",
+   "name": "Butter 82%",
+   "nameEt": "Või 82%",
+   "category": "Dairy",
+   "unit": "200 g",
+   "prices": {
+    "rimi": {
+     "price": 2.88
+    },
+    "selver": {
+     "price": 3.14
+    },
+    "prisma": {
+     "price": 2.88
+    },
+    "maxima": {
+     "price": 2.88
+    },
+    "coop": {
+     "price": 3.19
+    },
+    "lidl": {
+     "price": 2.66
+    }
+   }
+  },
+  {
+   "id": "eggs",
+   "name": "Eggs M",
+   "nameEt": "Munad M",
+   "category": "Dairy",
+   "unit": "10 pcs",
+   "prices": {
+    "rimi": {
+     "price": 2.79
+    },
+    "selver": {
+     "price": 1.74,
+     "regular": 2.85,
+     "until": "2026-12-02",
+     "loyalty": true
+    },
+    "prisma": {
+     "price": 2.73
+    },
+    "maxima": {
+     "price": 2.58
+    },
+    "coop": {
+     "price": 3.03
+    },
+    "lidl": {
+     "price": 2.44
+    }
+   }
+  },
+  {
+   "id": "cottage",
+   "name": "Cottage cheese",
+   "nameEt": "Kodujuust",
+   "category": "Dairy",
+   "unit": "380 g",
+   "prices": {
+    "rimi": {
+     "price": 2.14
+    },
+    "selver": {
+     "price": 2.13
+    },
+    "prisma": {
+     "price": 2.18
+    },
+    "maxima": {
+     "price": 2.05
+    },
+    "coop": {
+     "price": 2.21
+    }
+   }
+  },
+  {
+   "id": "cheese-edam",
+   "name": "Edam cheese",
+   "nameEt": "Eesti juust",
+   "category": "Dairy",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 5.97
+    },
+    "selver": {
+     "price": 5.85
+    },
+    "prisma": {
+     "price": 5.49
+    },
+    "maxima": {
+     "price": 4.52,
+     "regular": 5.21,
+     "until": "2026-12-02"
+    },
+    "coop": {
+     "price": 5.66
+    },
+    "lidl": {
+     "price": 4.92
+    }
+   }
+  },
+  {
+   "id": "kohuke",
+   "name": "Curd snack",
+   "nameEt": "Kohuke",
+   "category": "Dairy",
+   "unit": "38 g",
+   "prices": {
+    "rimi": {
+     "price": 0.49
+    },
+    "selver": {
+     "price": 0.51
+    },
+    "prisma": {
+     "price": 0.32,
+     "regular": 0.47,
+     "until": "2026-11-28"
+    },
+    "maxima": {
+     "price": 0.47
+    },
+    "coop": {
+     "price": 0.54
+    },
+    "lidl": {
+     "price": 0.45
+    }
+   }
+  },
+  {
+   "id": "rye-bread",
+   "name": "Rye bread",
+   "nameEt": "Rukkileib",
+   "category": "Bakery",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 1.3,
+     "regular": 1.89,
+     "until": "2026-11-29",
+     "loyalty": true
+    },
+    "selver": {
+     "price": 2.03
+    },
+    "prisma": {
+     "price": 1.95
+    },
+    "maxima": {
+     "price": 1.51,
+     "regular": 1.87,
+     "until": "2026-11-27",
+     "loyalty": true
+    },
+    "coop": {
+     "price": 2.09
+    }
+   }
+  },
+  {
+   "id": "white-bread",
+   "name": "White toast bread",
+   "nameEt": "Röstsai",
+   "category": "Bakery",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 1.46
+    },
+    "selver": {
+     "price": 1.19,
+     "regular": 1.46,
+     "until": "2026-11-27",
+     "loyalty": true
+    },
+    "prisma": {
+     "price": 1.32
+    },
+    "maxima": {
+     "price": 1.36
+    },
+    "coop": {
+     "price": 1.47
+    },
+    "lidl": {
+     "price": 0.83,
+     "regular": 1.31,
+     "until": "2026-11-30"
+    }
+   }
+  },
+  {
+   "id": "croissant",
+   "name": "Croissant",
+   "nameEt": "Croissant",
+   "category": "Bakery",
+   "unit": "1 pc",
+   "prices": {
+    "rimi": {
+     "price": 0.74
+    },
+    "selver": {
+     "price": 0.67
+    },
+    "prisma": {
+     "price": 0.64
+    },
+    "maxima": {
+     "price": 0.69
+    },
+    "coop": {
+     "price": 0.75
+    },
+    "lidl": {
+     "price": 0.65
+    }
+   }
+  },
+  {
+   "id": "chicken-fillet",
+   "name": "Chicken breast fillet",
+   "nameEt": "Kanafilee",
+   "category": "Meat & fish",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 9.94
+    },
+    "selver": {
+     "price": 9.96
+    },
+    "prisma": {
+     "price": 5.42,
+     "regular": 9.15,
+     "until": "2026-11-28",
+     "loyalty": true
+    },
+    "maxima": {
+     "price": 8.93
+    },
+    "coop": {
+     "price": 10.53
+    },
+    "lidl": {
+     "price": 4.94,
+     "regular": 8.51,
+     "until": "2026-11-29"
+    }
+   }
+  },
+  {
+   "id": "minced-pork",
+   "name": "Minced pork & beef",
+   "nameEt": "Sea-veisehakkliha",
+   "category": "Meat & fish",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 4.39
+    },
+    "selver": {
+     "price": 2.96,
+     "regular": 4.01,
+     "until": "2026-11-26"
+    },
+    "prisma": {
+     "price": 3.69
+    },
+    "maxima": {
+     "price": 3.7
+    },
+    "coop": {
+     "price": 4.13
+    },
+    "lidl": {
+     "price": 3.53
+    }
+   }
+  },
+  {
+   "id": "sausages",
+   "name": "Wiener sausages",
+   "nameEt": "Viinerid",
+   "category": "Meat & fish",
+   "unit": "400 g",
+   "prices": {
+    "rimi": {
+     "price": 2.93,
+     "regular": 3.51,
+     "until": "2026-12-01",
+     "loyalty": true
+    },
+    "selver": {
+     "price": 3.47
+    },
+    "prisma": {
+     "price": 3.37
+    },
+    "maxima": {
+     "price": 1.9,
+     "regular": 3.07,
+     "until": "2026-11-26"
+    },
+    "coop": {
+     "price": 3.37
+    }
+   }
+  },
+  {
+   "id": "salmon",
+   "name": "Salmon fillet",
+   "nameEt": "Lõhefilee",
+   "category": "Meat & fish",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 23.52
+    },
+    "selver": {
+     "price": 16.65,
+     "regular": 23.55,
+     "until": "2026-12-01"
+    },
+    "prisma": {
+     "price": 20.37
+    },
+    "maxima": {
+     "price": 21.59
+    },
+    "coop": {
+     "price": 21.41,
+     "regular": 24.54,
+     "until": "2026-11-26"
+    },
+    "lidl": {
+     "price": 19.3
+    }
+   }
+  },
+  {
+   "id": "sprats",
+   "name": "Baltic sprats in oil",
+   "nameEt": "Kilud õlis",
+   "category": "Meat & fish",
+   "unit": "240 g",
+   "prices": {
+    "rimi": {
+     "price": 1.92
+    },
+    "selver": {
+     "price": 1.77
+    },
+    "prisma": {
+     "price": 1.3,
+     "regular": 1.7,
+     "until": "2026-11-29"
+    },
+    "maxima": {
+     "price": 1.65
+    },
+    "coop": {
+     "price": 1.86
+    },
+    "lidl": {
+     "price": 1.57
+    }
+   }
+  },
+  {
+   "id": "bananas",
+   "name": "Bananas",
+   "nameEt": "Banaanid",
+   "category": "Fruit & veg",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 1.54
+    },
+    "selver": {
+     "price": 1.55
+    },
+    "prisma": {
+     "price": 1.53
+    },
+    "maxima": {
+     "price": 1.46
+    },
+    "coop": {
+     "price": 1.56
+    },
+    "lidl": {
+     "price": 1.3
+    }
+   }
+  },
+  {
+   "id": "apples",
+   "name": "Apples",
+   "nameEt": "Õunad",
+   "category": "Fruit & veg",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 2.15
+    },
+    "selver": {
+     "price": 2.1
+    },
+    "prisma": {
+     "price": 1.32,
+     "regular": 2.04,
+     "until": "2026-11-29"
+    },
+    "maxima": {
+     "price": 1.47,
+     "regular": 1.96,
+     "until": "2026-11-30",
+     "loyalty": true
+    },
+    "coop": {
+     "price": 2.1
+    },
+    "lidl": {
+     "price": 1.91
+    }
+   }
+  },
+  {
+   "id": "tomatoes",
+   "name": "Tomatoes",
+   "nameEt": "Tomatid",
+   "category": "Fruit & veg",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 3.42
+    },
+    "selver": {
+     "price": 3.19,
+     "regular": 3.79,
+     "until": "2026-11-30"
+    },
+    "prisma": {
+     "price": 3.08,
+     "regular": 3.54,
+     "until": "2026-11-30"
+    },
+    "maxima": {
+     "price": 2.48,
+     "regular": 3.44,
+     "until": "2026-11-26"
+    },
+    "coop": {
+     "price": 3.66
+    },
+    "lidl": {
+     "price": 2.1,
+     "regular": 3.1,
+     "until": "2026-11-27",
+     "loyalty": true
+    }
+   }
+  },
+  {
+   "id": "cucumbers",
+   "name": "Cucumbers",
+   "nameEt": "Kurgid",
+   "category": "Fruit & veg",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 3.22
+    },
+    "selver": {
+     "price": 2.16,
+     "regular": 2.98,
+     "until": "2026-12-02",
+     "loyalty": true
+    },
+    "prisma": {
+     "price": 2.88
+    },
+    "maxima": {
+     "price": 2.74
+    },
+    "coop": {
+     "price": 3.16
+    }
+   }
+  },
+  {
+   "id": "potatoes",
+   "name": "Potatoes",
+   "nameEt": "Kartulid",
+   "category": "Fruit & veg",
+   "unit": "2 kg",
+   "prices": {
+    "rimi": {
+     "price": 1.66
+    },
+    "selver": {
+     "price": 1.05,
+     "regular": 1.74,
+     "until": "2026-12-02"
+    },
+    "prisma": {
+     "price": 1.67
+    },
+    "maxima": {
+     "price": 1.59
+    },
+    "coop": {
+     "price": 1.84
+    },
+    "lidl": {
+     "price": 1.22,
+     "regular": 1.49,
+     "until": "2026-11-28"
+    }
+   }
+  },
+  {
+   "id": "onions",
+   "name": "Onions",
+   "nameEt": "Sibulad",
+   "category": "Fruit & veg",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 0.72,
+     "regular": 1.08,
+     "until": "2026-11-26"
+    },
+    "selver": {
+     "price": 0.99
+    },
+    "prisma": {
+     "price": 0.98
+    },
+    "maxima": {
+     "price": 1.01
+    },
+    "coop": {
+     "price": 1.02
+    },
+    "lidl": {
+     "price": 0.89
+    }
+   }
+  },
+  {
+   "id": "pasta",
+   "name": "Spaghetti",
+   "nameEt": "Spagetid",
+   "category": "Pantry",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 1.31
+    },
+    "selver": {
+     "price": 1.28
+    },
+    "prisma": {
+     "price": 1.22
+    },
+    "maxima": {
+     "price": 0.73,
+     "regular": 1.1,
+     "until": "2026-11-28",
+     "loyalty": true
+    },
+    "coop": {
+     "price": 1.19
+    },
+    "lidl": {
+     "price": 1.09
+    }
+   }
+  },
+  {
+   "id": "rice",
+   "name": "Long grain rice",
+   "nameEt": "Pikateraline riis",
+   "category": "Pantry",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 1.64,
+     "regular": 2.47,
+     "until": "2026-12-01"
+    },
+    "selver": {
+     "price": 2.34
+    },
+    "prisma": {
+     "price": 1.96,
+     "regular": 2.36,
+     "until": "2026-11-28"
+    },
+    "maxima": {
+     "price": 2.2
+    },
+    "coop": {
+     "price": 2.41
+    },
+    "lidl": {
+     "price": 1.98
+    }
+   }
+  },
+  {
+   "id": "buckwheat",
+   "name": "Buckwheat",
+   "nameEt": "Tatar",
+   "category": "Pantry",
+   "unit": "800 g",
+   "prices": {
+    "rimi": {
+     "price": 2.7
+    },
+    "selver": {
+     "price": 1.99,
+     "regular": 2.67,
+     "until": "2026-11-26"
+    },
+    "prisma": {
+     "price": 2.37
+    },
+    "maxima": {
+     "price": 2.34
+    },
+    "coop": {
+     "price": 1.8,
+     "regular": 2.55,
+     "until": "2026-11-28"
+    },
+    "lidl": {
+     "price": 2.2
+    }
+   }
+  },
+  {
+   "id": "sunflower-oil",
+   "name": "Sunflower oil",
+   "nameEt": "Päevalilleõli",
+   "category": "Pantry",
+   "unit": "1 L",
+   "prices": {
+    "rimi": {
+     "price": 2.79
+    },
+    "selver": {
+     "price": 2.8
+    },
+    "prisma": {
+     "price": 2.78
+    },
+    "maxima": {
+     "price": 1.52,
+     "regular": 2.47,
+     "until": "2026-11-30"
+    },
+    "coop": {
+     "price": 1.91,
+     "regular": 2.8,
+     "until": "2026-11-27"
+    },
+    "lidl": {
+     "price": 2.52
+    }
+   }
+  },
+  {
+   "id": "coffee",
+   "name": "Ground coffee",
+   "nameEt": "Jahvatatud kohv",
+   "category": "Pantry",
+   "unit": "500 g",
+   "prices": {
+    "rimi": {
+     "price": 8.69
+    },
+    "selver": {
+     "price": 8.45
+    },
+    "prisma": {
+     "price": 8.2
+    },
+    "maxima": {
+     "price": 7.83
+    },
+    "coop": {
+     "price": 8.91
+    }
+   }
+  },
+  {
+   "id": "sugar",
+   "name": "Sugar",
+   "nameEt": "Suhkur",
+   "category": "Pantry",
+   "unit": "1 kg",
+   "prices": {
+    "rimi": {
+     "price": 1.36
+    },
+    "selver": {
+     "price": 1.06,
+     "regular": 1.35,
+     "until": "2026-11-28"
+    },
+    "prisma": {
+     "price": 1.33
+    },
+    "maxima": {
+     "price": 1.21
+    },
+    "coop": {
+     "price": 1.31
+    },
+    "lidl": {
+     "price": 1.19
+    }
+   }
+  },
+  {
+   "id": "chocolate",
+   "name": "Milk chocolate",
+   "nameEt": "Piimašokolaad",
+   "category": "Snacks & drinks",
+   "unit": "100 g",
+   "prices": {
+    "rimi": {
+     "price": 1.76
+    },
+    "selver": {
+     "price": 1.13,
+     "regular": 1.72,
+     "until": "2026-11-29"
+    },
+    "prisma": {
+     "price": 1.7
+    },
+    "maxima": {
+     "price": 1.66
+    },
+    "coop": {
+     "price": 1.69
+    },
+    "lidl": {
+     "price": 1.46
+    }
+   }
+  },
+  {
+   "id": "chips",
+   "name": "Potato chips",
+   "nameEt": "Kartulikrõpsud",
+   "category": "Snacks & drinks",
+   "unit": "150 g",
+   "prices": {
+    "rimi": {
+     "price": 2.33
+    },
+    "selver": {
+     "price": 1.66,
+     "regular": 2.3,
+     "until": "2026-11-27"
+    },
+    "prisma": {
+     "price": 2.11
+    },
+    "maxima": {
+     "price": 1.78,
+     "regular": 2.03,
+     "until": "2026-11-29",
+     "loyalty": true
+    },
+    "coop": {
+     "price": 2.34
+    },
+    "lidl": {
+     "price": 1.34,
+     "regular": 2.05,
+     "until": "2026-11-30",
+     "loyalty": true
+    }
+   }
+  },
+  {
+   "id": "water",
+   "name": "Mineral water",
+   "nameEt": "Mineraalvesi",
+   "category": "Snacks & drinks",
+   "unit": "1.5 L",
+   "prices": {
+    "rimi": {
+     "price": 0.93
+    },
+    "selver": {
+     "price": 0.87
+    },
+    "prisma": {
+     "price": 0.89
+    },
+    "maxima": {
+     "price": 0.67,
+     "regular": 0.87,
+     "until": "2026-12-02"
+    },
+    "coop": {
+     "price": 0.89
+    },
+    "lidl": {
+     "price": 0.5,
+     "regular": 0.86,
+     "until": "2026-11-30"
+    }
+   }
+  },
+  {
+   "id": "juice",
+   "name": "Orange juice",
+   "nameEt": "Apelsinimahl",
+   "category": "Snacks & drinks",
+   "unit": "1 L",
+   "prices": {
+    "rimi": {
+     "price": 2.02
+    },
+    "selver": {
+     "price": 2.12
+    },
+    "prisma": {
+     "price": 1.98
+    },
+    "maxima": {
+     "price": 1.32,
+     "regular": 1.98,
+     "until": "2026-12-01"
+    },
+    "coop": {
+     "price": 2.07
+    },
+    "lidl": {
+     "price": 1.87
+    }
+   }
+  },
+  {
+   "id": "kali",
+   "name": "Kali (kvass)",
+   "nameEt": "Kali",
+   "category": "Snacks & drinks",
+   "unit": "1.5 L",
+   "prices": {
+    "rimi": {
+     "price": 1.48,
+     "regular": 1.7,
+     "until": "2026-12-01"
+    },
+    "selver": {
+     "price": 1.72
+    },
+    "prisma": {
+     "price": 1.51
+    },
+    "maxima": {
+     "price": 1.51
+    },
+    "coop": {
+     "price": 1.71
+    },
+    "lidl": {
+     "price": 0.9,
+     "regular": 1.47,
+     "until": "2026-12-02"
+    }
+   }
+  },
+  {
+   "id": "toilet-paper",
+   "name": "Toilet paper",
+   "nameEt": "Tualettpaber",
+   "category": "Household",
+   "unit": "8 rolls",
+   "prices": {
+    "rimi": {
+     "price": 3.91
+    },
+    "selver": {
+     "price": 2.48,
+     "regular": 3.96,
+     "until": "2026-12-02"
+    },
+    "prisma": {
+     "price": 2.7,
+     "regular": 3.92,
+     "until": "2026-11-26"
+    },
+    "maxima": {
+     "price": 3.94
+    },
+    "coop": {
+     "price": 2.61,
+     "regular": 4.09,
+     "until": "2026-11-28",
+     "loyalty": true
+    }
+   }
+  },
+  {
+   "id": "detergent",
+   "name": "Laundry detergent",
+   "nameEt": "Pesupulber",
+   "category": "Household",
+   "unit": "2 kg",
+   "prices": {
+    "rimi": {
+     "price": 9.71
+    },
+    "selver": {
+     "price": 6.15,
+     "regular": 8.85,
+     "until": "2026-11-30"
+    },
+    "prisma": {
+     "price": 9.32
+    },
+    "maxima": {
+     "price": 8.95
+    },
+    "coop": {
+     "price": 9.74
+    }
+   }
+  },
+  {
+   "id": "dish-soap",
+   "name": "Dish soap",
+   "nameEt": "Nõudepesuvahend",
+   "category": "Household",
+   "unit": "500 ml",
+   "prices": {
+    "rimi": {
+     "price": 1.27,
+     "regular": 1.93,
+     "until": "2026-12-01"
+    },
+    "selver": {
+     "price": 1.51,
+     "regular": 1.92,
+     "until": "2026-12-01"
+    },
+    "prisma": {
+     "price": 1.85
+    },
+    "maxima": {
+     "price": 1.93
+    },
+    "coop": {
+     "price": 1.67,
+     "regular": 1.99,
+     "until": "2026-11-26",
+     "loyalty": true
+    },
+    "lidl": {
+     "price": 1.64
+    }
+   }
+  }
+ ]
+};

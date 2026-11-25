@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soodne – Supermarket Offers</title>
+<meta name="description" content="Compare daily offers and prices across Estonian supermarkets.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Soodne <span>· Estonian supermarket offers</span></h1>
+    <p class="updated" id="updated"></p>
+  </div>
+  <nav class="tabs wrap" role="tablist">
+    <button role="tab" data-tab="offers" aria-selected="true">Today's offers</button>
+    <button role="tab" data-tab="compare">Compare prices</button>
+    <button role="tab" data-tab="basket">Basket <span id="basket-count" class="count">0</span></button>
+  </nav>
+</header>
+
+<div id="sample-banner" class="banner wrap" hidden>
+  Showing <b>sample data</b>, not real prices. Connect the store scrapers to load live offers.
+</div>
+
+<main class="wrap">
+  <section class="filters">
+    <input id="search" type="search" placeholder="Search products… (e.g. piim, coffee)">
+    <select id="category"><option value="">All categories</option></select>
+    <select id="sort">
+      <option value="discount">Biggest discount</option>
+      <option value="price">Lowest price</option>
+      <option value="name">Name A–Z</option>
+    </select>
+    <div id="store-chips" class="chips"></div>
+  </section>
+
+  <section id="tab-offers" class="panel"><div id="offers" class="grid"></div></section>
+  <section id="tab-compare" class="panel" hidden><div class="table-scroll"><table id="compare"></table></div></section>
+  <section id="tab-basket" class="panel" hidden><div id="basket"></div></section>
+</main>
+
+<footer class="wrap foot">Prices may differ in store. "Card" = price only with the store's loyalty card.</footer>
+
+<script src="data/offers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
